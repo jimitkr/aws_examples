@@ -1,0 +1,42 @@
+{
+  "outputGroups": [
+    {
+      "name": "File Group",
+      "outputs": [
+        {
+          "preset": "System-Xdcam_HD422_1080i_29_97fps"
+        }
+      ],
+      "outputGroupSettings": {
+        "type": "FILE_GROUP_SETTINGS",
+        "fileGroupSettings": {
+          "destination": "### populated in code ###"
+        }
+      }
+    }
+  ],
+  "adAvailOffset": 0,
+  "inputs": [
+    {
+      "audioSelectors": {
+        "Audio Selector 1": {
+          "offset": 0,
+          "defaultSelection": "DEFAULT",
+          "programSelection": 1
+        }
+      },
+      "videoSelector": {
+        "colorSpace": "FOLLOW",
+        "rotate": "DEGREE_0",
+        "alphaBehavior": "DISCARD"
+      },
+      "filterEnable": "AUTO",
+      "psiControl": "USE_PSI",
+      "filterStrength": 0,
+      "deblockFilter": "DISABLED",
+      "denoiseFilter": "DISABLED",
+      "timecodeSource": "EMBEDDED",
+      "fileInput": "### populated in code ###"
+    }
+  ]
+}
