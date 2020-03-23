@@ -1,0 +1,5 @@
+Resources:
+    myS3Bucket:
+      Type: AWS::S3::Bucket
+      Properties:
+        BucketName: jimits3bucket20200312
